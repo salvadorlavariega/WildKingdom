@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="185dp"
+                android:layout_height="250dp"
+                android:id="@+id/image_view_layout"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="gravity" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/image_button_previous"
+                    android:src="@drawable/button_previous"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_vertical" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/image_button_next"
+                    android:src="@drawable/button_next"
+                    android:scaleType="fitXY" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/text_view_name_animal"
+                android:id="@+id/text_view_name_animal"
+                android:layout_weight="0.13"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_label_Habitat"
+                android:id="@+id/text_view_label_habitat"
+                android:layout_weight="0.06"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_habitat"
+                android:id="@+id/text_view_habitad"
+                android:layout_weight="0.39"
+                android:layout_margin="12dp" />
+
+            <TextView
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_label_description"
+                android:id="@+id/text_view_label_description"
+                android:layout_weight="0.06"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view_description"
+                android:id="@+id/text_view_description"
+                android:layout_weight="0.39"
+                android:layout_margin="12dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

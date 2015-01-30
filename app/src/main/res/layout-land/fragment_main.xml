@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:layout_gravity="center_vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="158dp"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="190dp"
+                android:layout_height="175dp"
+                android:id="@+id/image_button_brown_bear"
+                android:src="@drawable/brown_bear"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/image_button_grizzly_bear"
+                android:src="@drawable/grizzly_bear"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/image_button_wombat"
+                android:src="@drawable/wombat"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/image_button_gecko"
+                android:src="@drawable/gecko"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/image_button_coral_snake"
+                android:src="@drawable/coral_snake"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:id="@+id/image_button_tortoise"
+                android:src="@drawable/tortoise"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
